@@ -1,1 +1,6 @@
-
+一、安装ssh服务器
+sudo apt install openssh-server
+二、远程登录
+ssh 用户名@ip
+使用ssh访问，如访问出现错误。可查看是否有该文件～/.ssh/known_ssh尝试删除该文件解决。
+使用 sudo scp -r 目标主机名@目标ip:/文件路径 /放文件路径
