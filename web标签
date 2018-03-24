@@ -1,1 +1,4 @@
-<br/>后面的内容都换到下一行
+<br/>         后面的内容都换到下一行
+<p align="left|center|right"> 文字 </p>     段落标签
+<div align="left|center|right"> 文本 图像或表格</div>     定位标签
+
