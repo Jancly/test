@@ -1,4 +1,14 @@
 <br/>         后面的内容都换到下一行
 <p align="left|center|right"> 文字 </p>     段落标签
 <div align="left|center|right"> 文本 图像或表格</div>     定位标签
+<h1~6>文字<h1~6>  字体大小标签
+<a href="地址">名字<a>  超链接标签
+<img src="文件名/图片名">
+外部样式表：创建一个mystyle.css的文档，在里面编写属性，<link rel="stylesheet"type="text/css"href="mystyle.css">
+name属性：创建文本内的链接<a name="tips">hello</a>
+<a href="#tips">跳转到hello</a>
+定义表格：<table>、定义表格标题：<caption>、定义表格表头：<th>、定义表格的行：<tr>、定义表格的单元：<td>、定义表格的页眉：<thead>
+定义表格的主体：<tbody>、定义表格页脚：<tfoot>、定义表格的列属性：<col>
+列表：  有序列表：<ol>、无序列表：<ul>、列表项：<li>、列表:<dl>、列表项：<dt>、描述：<dd>
+
 
