@@ -9,6 +9,7 @@ sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 [mysql]
 default-character-set=utf8 
 
+在管理员命令行进入bin文件夹
  运行mysqld  --initialize
  运行mysqld -install
  运行net start mysql启动服务
