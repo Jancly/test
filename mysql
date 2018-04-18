@@ -1,0 +1,27 @@
+[mysqld]
+port = 3306
+basedir=C:\Program Files\MYSQL\MySQL Server 5.7.21
+datadir=C:\Program Files\MYSQL\MySQL Server 5.7.21\data 
+max_connections=200
+character-set-server=utf8
+default-storage-engine=INNODB
+sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+[mysql]
+default-character-set=utf8 
+
+ 运行mysqld  --initialize
+ 运行mysqld -install
+ 运行net start mysql启动服务
+ 
+ 修改MySQL的配置文件（my.ini）,在[mysqld]下添加一行skip-grant-tables
+
+mysql 重启后，即可直接用 mysql -u root -p 进入(此时密码为空);
+
+输入update mysql.user set authentication_string=password("root") where user="root";
+
+输入flush privileges;
+   输入quit;
+   将my.ini文件还原(删除skip-grant-tables这一行)，重新启动 mysql
+   这个时候可以使用 mysql -u root -p root 进入
+   
+   输入sc delete mysql 删除原有的MYSQL
