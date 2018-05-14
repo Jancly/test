@@ -1,5 +1,6 @@
 mkdir chen 创建chen文件夹
 tar -xzvf 包名 解压.tar.gz软件包
+tar -xf 解压.tar.gz软件包
 mv 要移动的文件或软件包名 存放文件的路径
 touch chen  创建chen文档
 unzip .zip包 /解压到的路径
