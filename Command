@@ -8,12 +8,14 @@
 mkdir chen 创建chen文件夹
 touch chen  创建chen文档
 cp 要复制的文件 复制到哪里
+rm 文件名称  #删除文件
+mv 要移动的文件或软件包名 存放文件的路径
 
 三、解压与压缩
 tar -xzvf 包名 解压.tar.gz软件包
 tar -xf 解压.tar.gz软件包
 unzip .zip包 /解压到的路径
-mv 要移动的文件或软件包名 存放文件的路径
+
 
 四、安装与卸载
 卸载  dpkg -e 软件包名  如：dpkg -e software
