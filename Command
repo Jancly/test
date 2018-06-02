@@ -29,3 +29,6 @@ init 3是切换到终端命令模式，init 5切换到桌面模式，如果想�
 
 VMware Workstation  5A02H-AU243-TZJ49-GTC7K-3C61N
 
+解决jdk报错的问题
+全局属性Project>preferences>java>Compiler>Errors/Warnings>把右侧的【Deprecated and restricted API>Forbidden reference的Error】置为【Warning】
+
