@@ -4,3 +4,11 @@ sudo apt install openssh-server
 ssh 用户名@ip
 使用ssh访问，如访问出现错误。可查看是否有该文件～/.ssh/known_ssh尝试删除该文件解决。
 使用 sudo scp -r 目标主机名@目标ip:/文件路径 /放文件路径
+
+二、JDK安装的教程
+下载jdk安装包，并解压安装到/opt目录下
+然后打开文件   /etc/profile  把下面的三个复制到文件里
+JAVA_HOME=/usr/lib/jvm/jdk1.8.0_171   这里是填自己安装jdk的路径
+export PATH=$JAVA_HOME/bin:$PATH  
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+然后在命令行输入  java -version 出现自己安装jdk的版本，侧证明安装成功
