@@ -5,8 +5,11 @@
 4、df -h 查看当前系统磁盘使用
 
 二、创建
-查看帮助
+１、查看帮助
 ｍan 命令　查看命令的参数
+less 文件名　　　查看文件的内容，可以分页查看
+tail 文件名　　查看文件的最后几行，一般用来查看报错的很多内容时，查看最后面的信息
+
 mkdir chen 创建chen文件夹　man mkdir 查看ｍkdir的参数
 mkdir -p a/b/c创建多级的文件夹
 touch chen  创建chen文档
