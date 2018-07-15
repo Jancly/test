@@ -29,6 +29,9 @@ unzip .zip包 /解压到的路径
 安装  dpkg -i ded软件包名  如：dpkg -i sofware-1.2.3-1.ded
 clear 或者Ctrl+L快捷键 表示清除终端的命令
 
+五、快捷键
+Ctrl+L 清空终端的内容
+
 ps -ef 列出所有进程 
 vim 使用  进去按i或者a编辑然后按Esc退出编辑，输入冒号 ：w   保存 输入冒号   ：q  退出编辑器 或者：x退出；
 init 3是切换到终端命令模式，init 5切换到桌面模式，如果想启动就进入命令模式就进入/etc/inittab 把5改成3
