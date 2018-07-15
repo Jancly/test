@@ -21,6 +21,8 @@ du -sh 目录路劲  #查看目录大小
 三、解压与压缩
 tar -xzvf 包名 解压.tar.gz软件包
 tar -xf 解压.tar.gz软件包
+tar -cvf text.tar ./* 打包当前目录下的所有文件，包名为text.tar
+tar -zcvf test.tar.gz ./* 压缩当前目录下的所有文件
 unzip .zip包 /解压到的路径
 
 
