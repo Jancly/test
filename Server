@@ -5,3 +5,9 @@ Window- showView- servers. 然后在对servers点右键-new-server,添加Tomcat�
 
 2.若出现权限不够的提示：/opt/apache-tomcat-9.0.1/conf/catalina.policy(权限不够)，
 更改apache-tomcat-7.0.40中conf下所有文件的权限：sudo chmod 777 -R conf，(要在opt/apache-tomcat文件夹下执行命令）完成。
+
+进入Tomcat下的bin目录
+cd /usr/local/tomcat/bin
+./shutdown.sh　　Tomcat关闭命令
+./startup.sh　　　启动Tomcat
+
