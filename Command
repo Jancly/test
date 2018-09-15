@@ -14,12 +14,15 @@ mkdir chen 创建chen文件夹　man mkdir 查看ｍkdir的参数
 mkdir -p a/b/c创建多级的文件夹
 touch chen  创建chen文档
 cp 要复制的文件 复制到哪里
-rm 文件名称  #删除文件也可以删除文件夹
+rm -rf /var/log/http(http文件路径)  #删除/var/log/http目录以及其下所有文件和文件夹
+   -r：表示向下递归，不管有多少级目录，一并删除，　-f：表示直接强行删除，没有任何提示
+rm -f　/var/log/a.txt(表示强行删除a.txt文件)
 mv 要移动的文件或软件包名 存放文件的路径
 du -sh 目录路劲  #查看目录大小
 
 三、解压与压缩
-tar -xzvf 包名 解压.tar.gz软件包
+tar -xzvf 包名 是解压.tar.gz软件包
+tar -xzvf *.tar.gz(包名) -C/home/deepin(解压到这个文件夹下)
 tar -xf 解压.tar.gz软件包
 tar -cvf text.tar ./* 打包当前目录下的所有文件，包名为text.tar
 tar -zcvf test.tar.gz ./* 压缩当前目录下的所有文件
