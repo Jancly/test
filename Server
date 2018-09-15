@@ -1,0 +1,7 @@
+一、Tomcat
+tomcat添加工程及启动时报错Could not load the Tomcat server....The configuration may be corrupt or incomplete.
+ 1.重新添加servers 。
+Window- showView- servers. 然后在对servers点右键-new-server,添加Tomcat的目录（/opt/apache-tomcat-9.0.1)最后点击finish。
+
+2.若出现权限不够的提示：/opt/apache-tomcat-9.0.1/conf/catalina.policy(权限不够)，
+更改apache-tomcat-7.0.40中conf下所有文件的权限：sudo chmod 777 -R conf，(要在opt/apache-tomcat文件夹下执行命令）完成。
