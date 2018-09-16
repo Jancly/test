@@ -60,7 +60,9 @@ alt+shift+s，再+r，生成set和get方法
 补充输出语句，选中需要输出的部分，然后alt+/选择最后一项即可
 
 ps -ef 列出所有进程 
+六、编辑器
 vim 使用  进去按i或者a编辑然后按Esc退出编辑，输入冒号 ：w   保存 输入冒号   ：q  退出编辑器 或者：x退出；
+nano 也是一个编辑器，也很好用
 init 3是切换到终端命令模式，init 5切换到桌面模式，如果想启动就进入命令模式就进入/etc/inittab 把5改成3
 
 VMware Workstation  5A02H-AU243-TZJ49-GTC7K-3C61N
