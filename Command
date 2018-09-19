@@ -39,7 +39,7 @@ Ctrl+L 清空终端的内容
 
 eclipse的快捷键使用
 Ctrl + n 新建
-Ctrl+shift+f 格式化
+Ctrl+shift+f 整理代码
 Ctrl+shift+o 导包，就是导入要用的包
 Ctrl + / 单行注释，再次按就取消注释
 Ctrl+shift+/ 多行注释
