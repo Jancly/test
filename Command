@@ -58,6 +58,7 @@ alt+shift+s，再+c，根据父类生成空参构造
 alt+shift+s，再+o，根据本地字段(成员变量)生成有参构造
 alt+shift+s，再+r，生成set和get方法
 补充输出语句，选中需要输出的部分，然后alt+/选择最后一项即可
+修改eclipse编辑器字体大小的步骤Window->General->Colors and Fonts->Basic->Text Font
 
 ps -ef 列出所有进程 
 六、编辑器
