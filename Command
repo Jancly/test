@@ -38,6 +38,15 @@ clear 或者Ctrl+L快捷键 表示清除终端的命令
 Ctrl+L 清空终端的内容
 
 eclipse的快捷键使用
+//块编辑 alt+shift +a
+// 变大写 ctrl+shift+x
+// 变小写 ctrl+shift+y
+// 向下复制一行   alt+ctrl+↓
+// 向下添加一个空行 shift + enter
+// 向上添加一个空行 ctrl+shift + enter
+// 删除一行 选中行  ctrl+d
+// 注释或者去掉注释 ctrl+/
+// 向下移动一行 alt + ↓
 Ctrl + n 新建
 Ctrl+shift+f 整理代码
 Ctrl+shift+o 导包，就是导入要用的包
