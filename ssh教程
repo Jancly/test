@@ -12,3 +12,16 @@ JAVA_HOME=/usr/lib/jvm/jdk1.8.0_171   这里是填自己安装jdk的路径
 export PATH=$JAVA_HOME/bin:$PATH  
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 然后在命令行输入  java -version 出现自己安装jdk的版本，侧证明安装成功
+
+三 简单的安装create_ap
+1.安装hostapd无线网认证程序.
+sudo apt install hostapd
+
+2.安装小型DNS/TFTP服务器
+sudo apt install dnsmasq
+
+3.安装iptables. 默认deepin linux下已经安装.
+sudo apt install iptables
+
+然后进入create_ap文件夹下使用sudo make install 编译,最后通过create_ap来创建wifi热点,命令格式:
+create_ap 无线网卡 有线网卡 热点名称 密码  例如:sudo create_ap wlp2s0 ppp0 chen zong123456 
