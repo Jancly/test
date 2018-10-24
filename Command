@@ -5,6 +5,8 @@
 4、df -h 查看当前系统磁盘使用
 5.systemctl restart lightdm   #重启桌面的命令
 
+echo "your passwd"|sudo -S your cmd
+
 二、创建
 １、查看帮助
 ｍan 命令　查看命令的参数
